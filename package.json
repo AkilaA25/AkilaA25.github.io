@@ -1,0 +1,34 @@
+{
+  "name": "akilaa25.github.io",
+  "version": "1.0.0",
+  "description": "My personal portfolio featuring selected projects, technical skills, and hands-on work in software and systems engineering.",
+  "homepage": "https://akilaa25.github.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkilaA25/AkilaA25.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkilaA25/AkilaA25.github.io/issues"
+  },
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.21"
+  }
+}
