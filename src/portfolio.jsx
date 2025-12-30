@@ -109,6 +109,16 @@ const Portfolio = () => {
     <div className="space-y-16">
       {/* Hero Section */}
       <section className="text-center py-20">
+        <div className="flex justify-center mb-6">
+          <img 
+            src="/images/profile.jpg" 
+            alt="Akila Abeykoon"
+            className="w-40 h-40 rounded-full object-cover border-2 border-gray-300"
+            onError={(e) => {
+              e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="160" height="160"%3E%3Ccircle cx="80" cy="80" r="80" fill="%23e5e7eb"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="16" fill="%236b7280"%3EProfile%3C/text%3E%3C/svg%3E';
+            }}
+          />
+        </div>
         <h1 className="text-5xl font-bold mb-4">Akila Abeykoon</h1>
         <p className="text-xl text-gray-600 mb-6">Computer & Electrical Engineering Student</p>
         <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
